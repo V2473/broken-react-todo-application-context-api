@@ -39,7 +39,7 @@ const todosTemplate = [
 ];
 
 export const App = () => {
-  const [todos, setTodos] = React.useState(todosTemplate);
+  const [todos, setTodos] = React.useState([...todosTemplate]);
 
   return (
     <div className="root">
